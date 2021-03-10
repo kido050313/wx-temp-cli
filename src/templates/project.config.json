@@ -1,0 +1,371 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.9.3",
+  "appid": "wx54a80c55554e8328",
+  "projectname": "miniprogram-1897",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "填写信息",
+          "pathName": "pages/completeInfo/index",
+          "query": "type=hundred",
+          "scene": null
+        },
+        {
+          "name": "自助积分",
+          "pathName": "pages/points/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "产品溯源",
+          "pathName": "pages/productAuthenticity/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的",
+          "pathName": "pages/mine/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "收货地址",
+          "pathName": "pages/mine/adress/adress",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "新建收货地址",
+          "pathName": "pages/mine/newAddress/newAddress",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "提交申请",
+          "pathName": "pages/pointsMall/commitOder/commitOder",
+          "query": "type=hundred&from=pointMall",
+          "scene": null
+        },
+        {
+          "name": "提示",
+          "pathName": "pages/pointsMall/tips/tips",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的信息",
+          "pathName": "pages/mine/myInfo/myInfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "宝宝档案",
+          "pathName": "pages/mine/babyInfo/baby",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "新增宝宝",
+          "pathName": "pages/mine/addBaby/addBaby",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "优惠券",
+          "pathName": "pages/mine/coupon/coupon",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "礼品订单",
+          "pathName": "pages/mine/giftOrder/giftOrder",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "好物兑换",
+          "pathName": "pages/pointsMall/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "健康咨询",
+          "pathName": "pages/doctorInquiry/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "创建咨询问题",
+          "pathName": "pages/doctorInquiry/createQuestion/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "健康咨询中",
+          "pathName": "pages/doctorInquiry/concat/index",
+          "query": "id=1348918633300484098",
+          "scene": null
+        },
+        {
+          "id": 6,
+          "name": "webview页面",
+          "pathName": "pages/webview/index",
+          "query": "default=true",
+          "scene": null
+        },
+        {
+          "name": "礼品订单",
+          "pathName": "pages/mine/giftOrder/giftOrder",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/birthdayCetificate/index",
+          "pathName": "pages/birthdayCetificate/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "去使用",
+          "pathName": "pages/mine/QRcode/QRcode",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "收货地址",
+          "pathName": "pages/mine/adress/adress",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "全部商品",
+          "pathName": "pages/allGoods/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "连续积分",
+          "pathName": "pages/points/continuePoint/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "百日礼",
+          "pathName": "pages/rightCenter/hundredDay/hundredDay",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "生日礼",
+          "pathName": "pages/rightCenter/birthdayGift/birthdayGift",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "全部商品",
+          "pathName": "pages/allGoods/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "黑金专区",
+          "pathName": "pages/blackGold/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的信息",
+          "pathName": "pages/mine/myInfo/myInfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "上传出生证明",
+          "pathName": "pages/birthdayCetificate/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "积分抽奖",
+          "pathName": "pages/lottery/index/index",
+          "query": "name=lottery&id=123",
+          "scene": null
+        },
+        {
+          "name": "抽奖测试",
+          "pathName": "pages/lottery/testIndex/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "好物兑换",
+          "pathName": "pages/pointsMall/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "权益中心",
+          "pathName": "pages/rightCenter/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "会员认证",
+          "pathName": "pages/lottery/memberCertification/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "领取奖品",
+          "pathName": "pages/lottery/getGoods/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的信息",
+          "pathName": "pages/mine/myInfo/myInfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "隐私协议",
+          "pathName": "pages/agreement/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "首页",
+          "pathName": "pages/index/index",
+          "query": "name=2323",
+          "scene": null
+        },
+        {
+          "name": "连续",
+          "pathName": "pages/points/continuePoint/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "活动记录",
+          "pathName": "pages/mine/activationRecord/activationRecord",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "历史积分",
+          "pathName": "pages/mine/historyPoints/historyPoints",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "优惠券详情",
+          "pathName": "pages/mine/QRcode/QRcode",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/goodsDetail/index",
+          "pathName": "pages/goodsDetail/index",
+          "query": "id=4913",
+          "scene": null
+        },
+        {
+          "name": "订单详情",
+          "pathName": "pages/mine/giftOrder/orderDesc/orderDesc",
+          "query": "id=4913",
+          "scene": null
+        },
+        {
+          "name": "任务列表",
+          "pathName": "pages/task/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "type=hundred&from=pointMall",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "type=hundred&from=pointMall",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "type=hundred",
+          "scene": null
+        },
+        {
+          "name": "我的推荐人",
+          "pathName": "pages/points/myReferrer/myReferrer",
+          "query": "type=hundred&from=pointMall",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

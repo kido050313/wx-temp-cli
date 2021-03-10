@@ -1,0 +1,84 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/index",
+    "pages/task/index",
+    "pages/mine/infomation/infomation",
+    "pages/mine/adress/adress",
+    "pages/mine/myInfo/myInfo",
+    "pages/mine/babyInfo/baby",
+    "pages/mine/coupon/coupon",
+    "pages/mine/newAddress/newAddress",
+    "pages/mine/addBaby/addBaby",
+    "pages/completeInfo/index",
+    "pages/pointsMall/index",
+    "pages/allGoods/index",
+    "pages/blackGold/index",
+    "pages/goodsDetail/index",
+    "pages/points/index",
+    "pages/productAuthenticity/index",
+    "pages/doctorInquiry/index",
+    "pages/doctorInquiry/createQuestion/index",
+    "pages/doctorInquiry/concat/index",
+    "pages/webview/index",
+    "pages/pointsMall/commitOder/commitOder",
+    "pages/pointsMall/tips/tips",
+    "pages/birthdayCetificate/index",
+    "pages/mine/giftOrder/giftOrder",
+    "pages/mine/QRcode/QRcode",
+    "pages/rightCenter/index",
+    "pages/points/continuePoint/index",
+    "pages/rightCenter/hundredDay/hundredDay",
+    "pages/rightCenter/birthdayGift/birthdayGift",
+    "pages/mine/activationRecord/activationRecord",
+    "pages/mine/giftOrder/orderDesc/orderDesc",
+    "pages/lottery/index/index",
+    "pages/lottery/memberCertification/index",
+    "pages/lottery/getGoods/index",
+    "pages/agreement/index",
+    "pages/mine/historyPoints/historyPoints",
+    "pages/memberDay/index"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#888888",
+    "selectedColor": "#C49745",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/icon/index.png",
+        "selectedIconPath": "./static/icon/index_active.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/pointsMall/index",
+        "iconPath": "./static/icon/exchange.png",
+        "selectedIconPath": "./static/icon/exchange_active.png",
+        "text": "好物兑换"
+      },
+      {
+        "pagePath": "pages/rightCenter/index",
+        "iconPath": "./static/icon/equity.png",
+        "selectedIconPath": "./static/icon/equity_active.png",
+        "text": "权益中心"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "./static/icon/mine.png",
+        "selectedIconPath": "./static/icon/mine_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

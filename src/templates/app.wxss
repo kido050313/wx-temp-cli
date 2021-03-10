@@ -1,0 +1,39 @@
+/**app.wxss**/
+page {
+  background-color: #f7f7f7;
+}
+
+.container text, view {
+  box-sizing: border-box;
+  font-family: PingFangSC-Regular, PingFang SC;
+}
+
+.textOverflow-1{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.textOverflow-2{
+  display: -webkit-box;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:2;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+
+/* vant 上传组件删除按钮样式修改, 扩大删除按钮点击热区 */
+.van-uploader__preview-delete {
+  width: 24px!important;
+  height: 24px!important;
+}
+button {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+button::after {
+  border: none;
+}

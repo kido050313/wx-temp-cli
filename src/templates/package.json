@@ -1,0 +1,22 @@
+{
+  "name": "1897miniprogram",
+  "version": "1.0.0",
+  "description": "1897小程序",
+  "main": "app.js",
+  "dependencies": {
+    "@vant/weapp": "^1.5.2",
+    "crypto-js": "3.1.9-1",
+    "parser-wx": "^1.1.1",
+    "qs": "^6.9.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.3.11/winkey-hyproca/winkey-hyproca-mini-program.git"
+  },
+  "author": "winkeyTech",
+  "license": "ISC"
+}
